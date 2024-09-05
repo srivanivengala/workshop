@@ -1,0 +1,173 @@
+
+body{
+    overflow-x: hidden;
+}
+.bimage{
+    background-image: url("catimage.avif");
+    width:98vw;
+    height:100vh;
+    background-size: cover;
+ }
+
+ .navbar{
+     margin-top: 1vw;
+     /* margin-left: 5vw; */
+      /* margin-right: 10vw; */
+     background-color:black;
+     width:98vw;
+     height:5vw;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    position:sticky;
+    top:0;
+
+ }
+ .maintravel{
+    font-size: 2vw;
+ }
+
+ .endnav{
+     display:flex;
+     gap:3vw;
+   
+ }
+ .trav{
+     margin-top:2vw ;
+ }
+ .title{
+     color:white;
+     margin-top: 8vw;
+     margin-left: 10vw;
+     font-size: 5vw;
+ }
+ .lorem{
+     font-size: 1.3vw;
+ }
+ .card{
+     background-color: white;
+    
+     width:20vw;
+     height:40vh;
+     border: 2px solid rgb(139, 90, 225);
+ }
+ .cardinside{
+     /* margin-top: 8vw;
+     margin-left: 7vw;
+     align-content: center; */
+     padding-left:6.5vw;
+     padding-top:5vw;
+ }
+ .maincard{
+     display:flex;
+     grid-template-columns: auto auto auto;
+     gap:15vw;
+    
+ }
+ .start{
+    margin-left: 5vw;;
+ }
+.purple{
+    background-color: rgb(139, 90, 225);
+    width:98vw;
+    height:40vh;
+
+}
+button{
+    width:10vw;
+    height:3vw;
+    margin-top: -5vw;
+}
+ .contentpurple{
+   
+     display:grid;
+     grid-template-columns: auto auto auto auto;
+     padding:8vw;
+     /* margin-top: ; */
+     /* gap:3vw; */
+     /* margin-top: 4vw;
+    margin-left: 10vw; */
+   
+ }
+ @media only screen and (width>600px) and (width<900px){
+    .title{
+        
+        font-size: 8vw;
+    }
+    .lorem{
+        font-size: 2vw;
+    }
+    .bimage{
+        height:60vh;
+    }
+    button{
+        width:15vw;
+    }
+    .card{
+        background-color: white;
+       
+        width:30vw;
+        height:30vh;
+        border: 2px solid rgb(139, 90, 225);
+    }
+    .cardinside{
+        /* margin-top: 8vw;
+        margin-left: 7vw;
+        align-content: center; */
+        padding-left:3.5vw;
+        padding-top:2vw;
+    }
+    
+ }
+ @media only screen and (width<600px){
+    .title{
+        
+        font-size: 8vw;
+    }
+    .lorem{
+        font-size: 3vw;
+    }
+    .bimage{
+        height:60vh;
+    }
+    button{
+        width:20vw;
+        height:4vh;
+    }
+    .card{
+        background-color: white;
+       
+        width:26vw;
+        height:38vh;
+        border: 2px solid rgb(139, 90, 225);
+    }
+    .maincard{
+        gap:3vw;
+    }
+    .cardinside{
+        /* margin-top: 8vw;
+        margin-left: 7vw;
+        align-content: center; */
+        padding-left:0vw;
+        padding-top:0vw;
+        
+    }
+    .ship{
+        font-size: 4vw !important;
+    }
+    .natureimg{
+        width:26vw;
+        height:20vh;
+    }
+    .contentpurple{
+   
+        display:grid;
+        grid-template-columns: auto auto;
+        padding:8vw;
+        gap:5vw;
+       
+      
+    }
+    
+}
