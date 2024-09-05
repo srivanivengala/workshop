@@ -171,7 +171,7 @@ button{
     }
     
 }
-@media only screen and (width<400px){
+@media only screen and (width<600px){
 
     .title{
         margin-top: 20vw;
